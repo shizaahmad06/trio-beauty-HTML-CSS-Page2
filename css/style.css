@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: myFont;
+  src: url(/Canela-Family/CanelaText-Thin-Trial.otf);
+}
+@font-face{
+  font-family: myFontTwo;
+  src: url(/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+.container{
+  background: #fdf8f8;
+}
+.head{
+  text-align: center;
+  background-color: #E7E3EB;
+  padding: 10px;
+}
+/* header section*/ 
+
+
+
+/* towside section*/
+
+.twoSides {
+  display: flex;
+  max-width: 1133px;
+  margin: auto;
+  flex-direction: row-reverse;
+}
+.sectionLeft {
+  width: 50%;
+}
+.sectionLeft h1 {
+  font-size: 50px;
+  margin-left: 70px;
+  padding-top: 30px;
+  font-family: myFont;
+}
+.sectionLeft p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.paragraph{
+  padding-top: 30px;
+  font-family: myFontTwo;
+}
+.sectionRight img {
+  display: block;
+  max-width: 100%;
+}
+.sectionRight {
+  padding: 40px 10px 40px 0;
+}
+.twoSides-img {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  max-width: 1133px;
+  margin: auto;
+}
+.sectionOne-img {
+  width: 50%;
+}
+.content p {
+  font-size: 60px;
+  text-align: center;
+  
+}
+.content{
+  font-family: myFont;
+  margin: 30px;
+}
+.img-section img {
+  display: block;
+  max-width: 100%;
+}
+.content2 p {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px;
+  font-family: myFont;
+}
+.content3 {
+  font-size: 15px;
+  text-align: center;
+  font-family: myFontTwo;
+  
+}
+.twoSides-2 {
+  display: flex;
+  max-width: 1133px;
+  margin: auto;
+}
+.sectionLeft-2 {
+  width: 50%;
+  padding-left: 40px;
+}
+.sectionLeft-2 h1 {
+  font-size: 50px;
+  padding-top: 40px;
+  font-family: myFont;
+}
+.sectionLeft-2 p {
+  font-size: 20px;
+  padding-right: 70px;
+  padding-top: 50px;
+  font-family: myFontTwo;
+}
+
+.sectionRight-2 img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionRight-2 {
+  padding: 40px 10px 40px 0;
+}
+.container-2{
+  color: #fff;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer {
+  background: #513454;
+  padding: 17px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col input{
+  width: 100%;
+  padding: 10px;
+}
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: plum;
+  padding-left: 8px;
+}
+.para1 {
+  font-size: 30px;
+  color: white;
+}
+.para2 {
+  font-size: 9px;
+  color: white;
+}
+.button2 {
+  width: 100%;
+  padding: 10px;
+  background: #e7e3eb;
+  border: none;
+}
+.button2:hover {
+  background-color: darkgray;
+}
+input .B1 {
+  width: 50%;
+}
+.lastLine p {
+  font-size: 15px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 947px) {
+  .footer-col {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-col {
+    width: 75%;
+  }
+  .para2 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width : 947px){
+  .twoSides-2{
+    flex-direction: column-reverse;
+  }
+  .twoSides{
+    flex-direction: column-reverse;
+  }
+  .section.Left{
+    flex-direction: column-reverse;
+  }
+  .sectionLeft p {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .sectionLeft-2 p {
+    font-size: 20px;
+     margin-bottom: 0;
+      padding-top: 5px;
+  }
+  .sectionLeft h1{
+    padding-top: 0;
+    font-size: 25px;
+  }
+  .sectionRight img{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionRight-2 img{
+    max-width: 50%;
+  }
+  .content p {
+    font-size: 35px;
+  }
+  .content2 p {
+    font-size: 25px;
+    padding: 5px;
+}
+.content3{
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+  .sectionLeft-2, .sectionLeft{
+    width: 100%;
+  }
+  .sectionLeft-2 h1 {
+    font-size: 25px;
+    padding-top: 0;
+  }
+  .lastSection ul{
+    font-size: 10px;
+  }
+  .para1{
+    font-size: 15px;
+  }
+  .para2{
+    font-size: 9px;
+  }
+  .sectionLeft-2 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width : 500px){
+  .button2{
+    font-size: 12px;
+    padding: 6px;
+  }
+  .lastLine p{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width : 450px)
+{
+  .lastSection{
+    padding: 5px;
+  }
+  .lastSection ul{
+    font-size: 9px;
+  }
+  .lastLine p{
+    font-size: 8px;
+    padding: 10px;
+  }
+  .button2{
+    font-size: 9px;
+    padding: 4px;
+  }
+}
